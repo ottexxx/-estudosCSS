@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSITION ABSOLUTE</title>
+    <style>
+        .relative{
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 4px solid darkblue;
+        }
+        .absolute{
+            position: absolute;
+            top: 80px;
+            right: 0px;
+            width: 200px;
+            height: 100px;
+            border: 4px solid darkcyan
+        }
+    </style>
+</head>
+<body>
+    <H1>APRENDENDO POSICIONAMENTO</H1>
+    <H2>POSICIONAMENTO ABSOLUTO</H2>
+    <P>Com o posicionamento absoluto você poe posicionar qualquer elemento de acordo com o elemento pai que tenha um posição diferente de estática.</P>
+    <div class="relative"> caixa pai - propriedade relativa
+        <div class="absolute"> caixa filha - aplicando position absolute</div>
+    </div>
+</body>
+</html>
